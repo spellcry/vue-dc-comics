@@ -40,12 +40,12 @@ export default {
                 margin-left: auto;
                 .nav__list {
                     display: flex;
-                    gap: 1rem;
+                    gap: 2rem;
                     .list__item {
                         padding-block: 4rem;
                         text-transform: uppercase;
                         font-weight: bold;
-                        font-size: 0.8rem;
+                        font-size: 0.85rem;
                         &.active, &:hover {
                             color: $color-acc;
                             border-bottom: 5px solid $color-acc;

@@ -36,6 +36,7 @@ export default {
             color: $color-white;
             background-color: transparent;
             text-transform: uppercase;
+            cursor: pointer;
         }
         .socials {
             display: flex;
@@ -46,6 +47,9 @@ export default {
             font-weight: bold;
             color: $color-acc;
             text-transform: uppercase;
+            img {
+                cursor: pointer;
+            }
         }
     }
 

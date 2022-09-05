@@ -14,11 +14,12 @@ export default {
 
 <style lang="scss" scoped>
     @import '../style/variables';
+    @import '../style/mixins';
     
     .main-content {
         background-color: $color-dark;
         color: $color-white;
-        padding-block: 3rem;
+        @include paddingBlock;
     }
 
 </style>

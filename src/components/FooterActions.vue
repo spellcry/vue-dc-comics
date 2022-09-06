@@ -34,9 +34,8 @@ export default {
             padding: 1rem;
             border: 2px solid $color-acc;
             color: $color-white;
+            font-weight: bold;
             background-color: transparent;
-            text-transform: uppercase;
-            cursor: pointer;
         }
         .socials {
             display: flex;

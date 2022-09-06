@@ -116,4 +116,127 @@ export const links = [
     },
 ];
 
+export const listLinks = [
+    {
+        title: 'Dc comics',
+        links: [
+            {
+                text: 'Characters',
+                href: '#',
+            },
+            {
+                text: 'Comics',
+                href: '#',
+            },
+            {
+                text: 'Movies',
+                href: '#',
+            },
+            {
+                text: 'Tv',
+                href: '#',
+            },
+            {
+                text: 'Games',
+                href: '#',
+            },
+            {
+                text: 'Videos',
+                href: '#',
+            },
+            {
+                text: 'News',
+                href: '#',
+            },
+        ]
+    },
+    {
+        title: 'Shop',
+        links: [
+            {
+                text: 'Shop DC',
+                href: '#',
+            },
+            {
+                text: 'Shp Dc Collectibles',
+                href: '#',
+            },
+        ]
+    },
+    {
+        title: 'Dc',
+        links: [
+            {
+                text: 'Term of Use',
+                href: '#',
+            },
+            {
+                text: 'Privacy policy (New)',
+                href: '#',
+            },
+            {
+                text: 'Ad Choices',
+                href: '#',
+            },
+            {
+                text: 'Advertising',
+                href: '#',
+            },
+            {
+                text: 'Jobs',
+                href: '#',
+            },
+            {
+                text: 'Subscriptions',
+                href: '#',
+            },
+            {
+                text: 'Talent Workshops',
+                href: '#',
+            },
+            {
+                text: 'CPSC Certificates',
+                href: '#',
+            },
+            {
+                text: 'Ratings',
+                href: '#',
+            },
+            {
+                text: 'Shop Help',
+                href: '#',
+            },
+            {
+                text: 'Contact Us',
+                href: '#',
+            },
+        ]
+    },
+    {
+        title: 'Sites',
+        links: [
+            {
+                text: 'DC',
+                href: '#',
+            },
+            {
+                text: 'MAD Magazine',
+                href: '#',
+            },
+            {
+                text: 'DC Kids',
+                href: '#',
+            },
+            {
+                text: 'DC Universe',
+                href: '#',
+            },
+            {
+                text: 'DC Power Visa',
+                href: '#',
+            },
+        ]
+    },
+]
+
 export default data;

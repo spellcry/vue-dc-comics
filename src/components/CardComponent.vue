@@ -21,6 +21,8 @@ export default {
 <style lang="scss" scoped>
     .card {
         text-align: left;
+        cursor: pointer;
+        transition: transform 150ms ease-in-out;
         .card__img {
             margin-bottom: 1rem;
             aspect-ratio: 1;
@@ -30,6 +32,9 @@ export default {
         .title {
             text-transform: uppercase;
             color: #bbb;
+        }
+        &:hover {
+            transform: scale(1.02);
         }
     }
 </style>

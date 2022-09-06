@@ -73,4 +73,47 @@ const data = [
     }
 ];
 
+export const links = [
+    {
+        title: 'Characters',
+        href: '#'
+    },
+    {
+        title: 'Comics',
+        href: '#'
+    },
+    {
+        title: 'Movies',
+        href: '#'
+    },
+    {
+        title: 'Tv',
+        href: '#'
+    },
+    {
+        title: 'Games',
+        href: '#'
+    },
+    {
+        title: 'Collectibles',
+        href: '#'
+    },
+    {
+        title: 'Videos',
+        href: '#'
+    },
+    {
+        title: 'Fans',
+        href: '#'
+    },
+    {
+        title: 'News',
+        href: '#'
+    },
+    {
+        title: 'Shop',
+        href: '#'
+    },
+];
+
 export default data;

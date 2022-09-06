@@ -5,17 +5,8 @@
                 <img src="../assets/dc-logo.png" alt="">
             </div>
             <nav class="nav">
-                <ul class="nav__list">
-                    <li class="list__item">Characters</li>
-                    <li class="list__item active">Comics</li>
-                    <li class="list__item">Movies</li>
-                    <li class="list__item">Tv</li>
-                    <li class="list__item">Games</li>
-                    <li class="list__item">Collectibles</li>
-                    <li class="list__item">Videos</li>
-                    <li class="list__item">Fans</li>
-                    <li class="list__item">News</li>
-                    <li class="list__item">Shop</li>
+                <ul class="nav__list">                
+                    <li v-for="(link, index) in links" :key="index" class="list__item"><a :href="link.href">{{ link.title }}</a></li>
                 </ul>
             </nav>
         </div>
@@ -23,8 +14,14 @@
 </template>
 
 <script>
+import { links } from '../data';
+
 export default {
-    
+    data() {
+        return {
+            links
+        }
+    }
 }
 </script>
 
@@ -46,9 +43,13 @@ export default {
                         text-transform: uppercase;
                         font-weight: bold;
                         font-size: 0.85rem;
+                        border-bottom: 5px solid transparent;                    
                         &.active, &:hover {
                             color: $color-acc;
-                            border-bottom: 5px solid $color-acc;
+                            border-bottom-color: $color-acc;
+                        }
+                        a {
+                            color: $color-dark;
                         }
                     }
                 }

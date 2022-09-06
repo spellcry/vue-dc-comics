@@ -1,18 +1,21 @@
 <template>
     <div class="footer__nav">
         <div class="container">
-            <FooterNavList/>
-            <FooterNavList/>
-            <FooterNavList/>
-            <FooterNavList/>
+            <FooterNavList v-for="(links, index) in listLinks" :key="index" :listLinks="links"/>
         </div>
     </div>
 </template>
 
 <script>
 import FooterNavList from './FooterNavList.vue';
+import { listLinks } from '../data';
 
 export default {
+    data() {
+        return {
+            listLinks
+        }
+    },
     components: {
         FooterNavList
     }

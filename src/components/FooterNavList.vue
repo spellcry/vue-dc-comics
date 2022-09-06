@@ -12,7 +12,7 @@
 export default {
     props: {
         listLinks: {
-            type: Array
+            type: Object
         }
     }
 }
